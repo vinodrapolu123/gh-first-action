@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubutun-latest
+    steps:
+      - name: Print Greeting
+        run: echo "This is my first Github Actions"
+      - name: Print GoodBye
+        run: echo "First Github Action is completed"
