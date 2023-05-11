@@ -6,5 +6,10 @@ jobs:
     steps:
       - name: Print Greeting
         run: echo "This is my first Github Actions"
+      - name: Running Multiple Commands
+        run: |
+            echo "First Output"
+            ls -ltr
+            df -h
       - name: Print GoodBye
         run: echo "First Github Action is completed"
